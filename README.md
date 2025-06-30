@@ -1,26 +1,18 @@
-# polygoncontourn
-# Polygon Outline Reproject
+# Artoria - QGIS Plugin
 
-Este plugin para QGIS permite reprojetar camadas de polígonos como contornos em EPSG:4326.
+**Artoria** é um plugin para QGIS que reprojeta camadas de polígonos para o sistema de coordenadas EPSG:4326 e aplica um estilo de contorno personalizado.
 
 ## Funcionalidades
-
-- Reprojetar camadas de polígonos.
-- Estilizar a camada reprojetada com contorno e sem preenchimento.
-- Mensagens de feedback para o usuário.
+- Reprojeção para EPSG:4326
+- Estilização automática com contorno vermelho
+- Integração com a interface do QGIS
 
 ## Instalação
+1. Baixe ou clone este repositório.
+2. Copie a pasta `Artoria` para:
+   - Windows: `C:\Users\<usuario>\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins`
+   - Linux: `~/.local/share/QGIS/QGIS3/profiles/default/python/plugins`
+3. Ative no menu de complementos do QGIS.
 
-1. Clone este repositório.
-2. Coloque a pasta do plugin na pasta de plugins do QGIS.
-3. Ative o plugin no QGIS.
-
-## Uso
-
-1. Selecione uma camada de polígonos.
-2. Clique no botão "Reprojetar como contorno" na barra de ferramentas.
-3. A camada reprojetada será adicionada ao projeto.
-
-## Contribuição
-
-Sinta-se à vontade para abrir issues ou pull requests.
+## Autor
+Criado por Myth ✨
